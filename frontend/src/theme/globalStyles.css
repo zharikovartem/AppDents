@@ -1,0 +1,150 @@
+:root {
+  --mantine-color-body: #edf8ff;
+  /* 360 */
+  --token-text-base: #01433d;
+
+  --input-placeholder-color: #5b6968;
+  --token-color-secondary-gray: #5b6968;
+  --token-color-main: #7fdfd5;
+
+  --mantine-font-size-xl: 40px;
+  --mantine-line-height-xl: 52px;
+  --token-font-heading-h1-font-size: 40px;
+  --token-font-heading-h1-text-decoration: none;
+  --token-font-heading-h1-font-family: Rethink Sans;
+  --token-font-heading-h1-font-weight: 400;
+  --token-font-heading-h1-font-style: normal;
+  --token-font-heading-h1-font-stretch: normal;
+  --token-font-heading-h1-letter-spacing: 0px;
+  --token-font-heading-h1-line-height: 52px;
+
+  --token-font-heading-h2-font-size: 26px;
+  --mantine-font-size-lg: 26px;
+  --token-font-heading-h2-text-decoration: none;
+  --token-font-heading-h2-font-family: Rethink Sans;
+  --token-font-heading-h2-font-weight: 400;
+  --token-font-heading-h2-font-style: normal;
+  --token-font-heading-h2-font-stretch: normal;
+  --token-font-heading-h2-letter-spacing: 0px;
+  --token-font-heading-h2-line-height: 34px;
+
+  --token-font-heading-h3-font-size: 20px;
+  --mantine-font-size-md: 20px;
+  --token-font-heading-h3-text-decoration: none;
+  --token-font-heading-h3-font-family: Rethink Sans;
+  --token-font-heading-h3-font-weight: 400;
+  --token-font-heading-h3-font-style: normal;
+  --token-font-heading-h3-font-stretch: normal;
+  --token-font-heading-h3-letter-spacing: 0px;
+  --token-font-heading-h3-line-height: 26px;
+
+  --token-font-heading-h4-font-size: 16px;
+  --token-font-heading-h4-text-decoration: none;
+  --token-font-heading-h4-font-family: Rethink Sans;
+  --token-font-heading-h4-font-weight: 400;
+  --token-font-heading-h4-font-style: normal;
+  --token-font-heading-h4-font-stretch: normal;
+  --token-font-heading-h4-letter-spacing: 0px;
+  --token-font-heading-h4-line-height: 20.83px;
+
+  --token-font-paragraph-large-medium-font-size: 20px;
+  --token-font-paragraph-large-medium-text-decoration: none;
+  --token-font-paragraph-large-medium-font-family: Rethink Sans;
+  --token-font-paragraph-large-medium-font-weight: 500;
+  --token-font-paragraph-large-medium-font-style: normal;
+  --token-font-paragraph-large-medium-font-stretch: normal;
+  --token-font-paragraph-large-medium-letter-spacing: 0px;
+  --token-font-paragraph-large-medium-line-height: 26.04px;
+
+  --token-font-paragraph-large-regular-font-size: 20px;
+  --token-font-paragraph-large-regular-text-decoration: none;
+  --token-font-paragraph-large-regular-font-family: Rethink Sans;
+  --token-font-paragraph-large-regular-font-weight: 400;
+  --token-font-paragraph-large-regular-font-style: normal;
+  --token-font-paragraph-large-regular-font-stretch: normal;
+  --token-font-paragraph-large-regular-letter-spacing: 0px;
+  --token-font-paragraph-large-regular-line-height: 26.04px;
+
+  --token-font-paragraph-base-semibold-font-size: 16px;
+  --token-font-paragraph-base-semibold-text-decoration: none;
+  --token-font-paragraph-base-semibold-font-family: Rethink Sans;
+  --token-font-paragraph-base-semibold-font-weight: 600;
+  --token-font-paragraph-base-semibold-font-style: normal;
+  --token-font-paragraph-base-semibold-font-stretch: normal;
+  --token-font-paragraph-base-semibold-letter-spacing: 0px;
+  --token-font-paragraph-base-semibold-line-height: 26.04px;
+
+  --token-font-paragraph-base-medium-font-size: 16px;
+  --token-font-paragraph-base-medium-text-decoration: none;
+  --token-font-paragraph-base-medium-font-family: Inter;
+  --token-font-paragraph-base-medium-font-weight: 500;
+  --token-font-paragraph-base-medium-font-style: normal;
+  --token-font-paragraph-base-medium-font-stretch: normal;
+  --token-font-paragraph-base-medium-letter-spacing: 0px;
+  --token-font-paragraph-base-medium-line-height: 26.04px;
+
+  --token-font-paragraph-base-regular-font-size: 16px;
+  --token-font-paragraph-base-regular-text-decoration: none;
+  --token-font-paragraph-base-regular-font-family: Rethink Sans;
+  --token-font-paragraph-base-regular-font-weight: 400;
+  --token-font-paragraph-base-regular-font-style: normal;
+  --token-font-paragraph-base-regular-font-stretch: normal;
+  --token-font-paragraph-base-regular-letter-spacing: 0px;
+  --token-font-paragraph-base-regular-line-height: 26.04px;
+
+  --token-font-paragraph-small-semibold-font-size: 12px;
+  --token-font-paragraph-small-semibold-text-decoration: none;
+  --token-font-paragraph-small-semibold-font-family: Rethink Sans;
+  --token-font-paragraph-small-semibold-font-weight: 600;
+  --token-font-paragraph-small-semibold-font-style: normal;
+  --token-font-paragraph-small-semibold-font-stretch: normal;
+  --token-font-paragraph-small-semibold-letter-spacing: 0px;
+  --token-font-paragraph-small-semibold-line-height: 15.62px;
+
+  --token-font-paragraph-small-medium-font-size: 13px;
+  --token-font-paragraph-small-medium-text-decoration: none;
+  --token-font-paragraph-small-medium-font-family: Rethink Sans;
+  --token-font-paragraph-small-medium-font-weight: 500;
+  --token-font-paragraph-small-medium-font-style: normal;
+  --token-font-paragraph-small-medium-font-stretch: normal;
+  --token-font-paragraph-small-medium-letter-spacing: 0px;
+  --token-font-paragraph-small-medium-line-height: 15.62px;
+
+  --token-font-paragraph-small-regular-font-size: 13px;
+  --token-font-paragraph-small-regular-text-decoration: none;
+  --token-font-paragraph-small-regular-font-family: Rethink Sans;
+  --token-font-paragraph-small-regular-font-weight: 400;
+  --token-font-paragraph-small-regular-font-style: normal;
+  --token-font-paragraph-small-regular-font-stretch: normal;
+  --token-font-paragraph-small-regular-letter-spacing: 0px;
+  --token-font-paragraph-small-regular-line-height: 15.62px;
+
+  --token-font-caption-small-medium-font-size: 12px;
+  --token-font-caption-small-medium-text-decoration: none;
+  --token-font-caption-small-medium-font-family: Rethink Sans;
+  --token-font-caption-small-medium-font-weight: 500;
+  --token-font-caption-small-medium-font-style: normal;
+  --token-font-caption-small-medium-font-stretch: normal;
+  --token-font-caption-small-medium-letter-spacing: 0px;
+  --token-font-caption-small-medium-line-height: 20px;
+  --token-font-caption-small-regular-font-size: 12px;
+  --token-font-caption-small-regular-text-decoration: none;
+  --token-font-caption-small-regular-font-family: Rethink Sans;
+  --token-font-caption-small-regular-font-weight: 400;
+  --token-font-caption-small-regular-font-style: normal;
+  --token-font-caption-small-regular-font-stretch: normal;
+  --token-font-caption-small-regular-letter-spacing: 0px;
+  --token-font-caption-small-regular-line-height: 18px;
+
+  --token-spacing-6xl: 48px;
+  --token-spacing-5xl: 40px;
+  --token-spacing-4xl: 32px;
+  --token-spacing-3xl: 24px;
+  --token-spacing-2xl: 20px;
+  --token-spacing-xl: 16px;
+  --token-spacing-l: 12px;
+  --token-spacing-m: 8px;
+  --token-spacing-s: 6px;
+  --token-spacing-xs: 4px;
+  --token-spacing-xxs: 2px;
+}

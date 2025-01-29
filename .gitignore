@@ -16,4 +16,5 @@ docker-compose.override.yml
 
 #env
 .env
-
+# frontend
+frontend/.next/
